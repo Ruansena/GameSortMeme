@@ -1,0 +1,66 @@
+body {
+  font-family: 'VT323', monospace;
+  text-align: center;
+  background: #333;
+  overflow: hidden;
+}
+.contentWrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.pushStart,
+.game {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+.center {
+  left: 50%;
+  opacity: 1;
+  transition: all ease-in 1s;
+}
+.out-left {
+  left: -50%;
+  opacity: 0;
+  transition: all ease-in 1s;
+}
+.out-right {
+  left: 100%;
+  opacity: 0;
+}
+.surprise {
+  opacity: 0;
+}
+.get-in {
+  opacity: 1;
+  transition: 3s;
+}
+.q {
+  display: inline-block;
+  font-size: 3em;
+  text-shadow: -1px 1px 1px rgba(255, 255, 255, 0.2);
+}
+button {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  text-shadow: -2px 3px 0 rgba(0, 0, 0, 0.4);
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-image: linear-gradient(blueviolet, darkmagenta);
+  border: none;
+  outline: none;
+  margin-left: 4px;
+  box-shadow: -2px 7px 0 rgb(61, 0, 61);
+}
+button:active {
+  box-shadow: none;
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.1);
+  transform: translate(-2px, 7px);
+  transition: 0.5s;
+}
+.counter {
+  font-size: 20em;
+}
