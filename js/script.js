@@ -36,9 +36,9 @@ function iniciar() {
     surpresa.classList.add('get-in');
     switch (parseInt(game.innerHTML)) {
       case 1:
-        meme.src = 'img/erou.jpeg';
+        meme.src = 'img/erou.jpeg'; //Source do meme apartir do index
         meme.alt = 'Errouuu';
-        memeNome.innerHTML = meme.alt;
+        memeNome.innerHTML = meme.alt; //Aqui ele pega o mesmo valor que tem no meme alt
         break;
       case 2:
         meme.src = 'img/pioresconselhos.jpg';
