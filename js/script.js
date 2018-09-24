@@ -81,13 +81,13 @@ function iniciar() {
         memeNome.innerHTML = meme.alt;
         break;
       case 10:
-        meme.src = 'img/erou.jpeg';
-        meme.alt = 'Errouuu';
+        meme.src = 'img/nazare.jpg';
+        meme.alt = 'Sociedade e Sustentabilidade';
         memeNome.innerHTML = meme.alt;
         break;
       default:
-        meme.src = 'img/erou.jpeg';
-        meme.alt = 'Errouuu';
+        meme.src = 'img/nazare.jpg';
+        meme.alt = 'What have you done??';
         memeNome.innerHTML = meme.alt;
         break;
     }
