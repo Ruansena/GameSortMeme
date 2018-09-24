@@ -24,7 +24,7 @@ function iniciar() {
           game.innerHTML = count;
           count++;
           gameLoop(count);
-        }, 150))
+        }, 300))
       : gameLoop(1);
   }
   gameLoop(count);
@@ -36,57 +36,57 @@ function iniciar() {
     surpresa.classList.add('get-in');
     switch (parseInt(game.innerHTML)) {
       case 1:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
+        meme.src = 'img/erou.jpeg';
         meme.alt = 'Errouuu';
         memeNome.innerHTML = meme.alt;
         break;
       case 2:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
-        meme.alt = 'Errouuu';
+        meme.src = 'img/pioresconselhos.jpg';
+        meme.alt = 'Você não precisa estudar se copiar do stackoverflow';
         memeNome.innerHTML = meme.alt;
         break;
       case 3:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
-        meme.alt = 'Errouuu';
+        meme.src = 'img/interrogacao.jpg';
+        meme.alt = 'Impacta???';
         memeNome.innerHTML = meme.alt;
         break;
       case 4:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
+        meme.src = 'img/erou.jpeg';
         meme.alt = 'Errouuu';
         memeNome.innerHTML = meme.alt;
         break;
       case 5:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
+        meme.src = 'img/erou.jpeg';
         meme.alt = 'Errouuu';
         memeNome.innerHTML = meme.alt;
         break;
       case 6:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
+        meme.src = 'img/erou.jpeg';
         meme.alt = 'Errouuu';
         memeNome.innerHTML = meme.alt;
         break;
       case 7:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
+        meme.src = 'img/erou.jpeg';
         meme.alt = 'Errouuu';
         memeNome.innerHTML = meme.alt;
         break;
       case 8:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
+        meme.src = 'img/erou.jpeg';
         meme.alt = 'Errouuu';
         memeNome.innerHTML = meme.alt;
         break;
       case 9:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
+        meme.src = 'img/erou.jpeg';
         meme.alt = 'Errouuu';
         memeNome.innerHTML = meme.alt;
         break;
       case 10:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
+        meme.src = 'img/erou.jpeg';
         meme.alt = 'Errouuu';
         memeNome.innerHTML = meme.alt;
         break;
       default:
-        meme.src = 'https://s.yimg.com/tr/i/c5ef1eec225f4ad1a7b0254c6167aeef_A.jpeg';
+        meme.src = 'img/erou.jpeg';
         meme.alt = 'Errouuu';
         memeNome.innerHTML = meme.alt;
         break;
