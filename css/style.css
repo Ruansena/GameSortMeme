@@ -59,6 +59,7 @@ button {
   outline: none;
   margin-left: 4px;
   box-shadow: -2px 7px 0 rgb(61, 0, 61);
+  user-select: none;
 }
 button:active {
   box-shadow: none;
