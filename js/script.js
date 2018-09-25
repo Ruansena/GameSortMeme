@@ -24,7 +24,7 @@ function iniciar() {
           game.innerHTML = count;
           count++;
           gameLoop(count);
-        }, 300))
+        }, 150))
       : gameLoop(1);
   }
   gameLoop(count);
